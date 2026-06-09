@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 340" width="1020" height="340" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="ap" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#D8896B"/>
+    </marker>
+  </defs>
+
+  <!-- Week connector line -->
+  <line x1="118" y1="160" x2="900" y2="160" stroke="#E2E0D6" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- Week 1 -->
+  <rect x="20" y="60" width="220" height="200" rx="18" fill="#F7F6EF" stroke="#B85838" stroke-width="2.5"/>
+  <rect x="20" y="60" width="220" height="52" rx="18" fill="#B85838"/>
+  <rect x="20" y="90" width="220" height="22" fill="#B85838"/>
+  <text x="130" y="92" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Minggu 1</text>
+  <text x="130" y="110" text-anchor="middle" font-size="13" fill="#F5E6DA">Hari 1–7</text>
+  <text x="42" y="145" font-size="18" font-weight="700" fill="#B85838">Identifikasi</text>
+  <text x="42" y="165" font-size="15" fill="#54514A">Pilih 3 dokumen</text>
+  <text x="42" y="185" font-size="15" fill="#54514A">penting di tempat</text>
+  <text x="42" y="205" font-size="15" fill="#54514A">kerja Anda.</text>
+  <text x="42" y="240" font-size="13" fill="#B85838">→ Pemetaan dokumen</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="240" y1="160" x2="262" y2="160" stroke="#D8896B" stroke-width="2.5" marker-end="url(#ap)"/>
+
+  <!-- Week 2 -->
+  <rect x="266" y="60" width="220" height="200" rx="18" fill="#F7F6EF" stroke="#B85838" stroke-width="2.5"/>
+  <rect x="266" y="60" width="220" height="52" rx="18" fill="#D8896B"/>
+  <rect x="266" y="90" width="220" height="22" fill="#D8896B"/>
+  <text x="376" y="92" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Minggu 2</text>
+  <text x="376" y="110" text-anchor="middle" font-size="13" fill="#FFFFFF">Hari 8–14</text>
+  <text x="288" y="145" font-size="18" font-weight="700" fill="#B85838">Upload</text>
+  <text x="288" y="165" font-size="15" fill="#54514A">Upload dokumen</text>
+  <text x="288" y="185" font-size="15" fill="#54514A">ke NotebookLM,</text>
+  <text x="288" y="205" font-size="15" fill="#54514A">mulai bertanya.</text>
+  <text x="288" y="240" font-size="13" fill="#B85838">→ Notebook pertama</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="486" y1="160" x2="508" y2="160" stroke="#D8896B" stroke-width="2.5" marker-end="url(#ap)"/>
+
+  <!-- Week 3 -->
+  <rect x="512" y="60" width="220" height="200" rx="18" fill="#F5E6DA" stroke="#B85838" stroke-width="2.5"/>
+  <rect x="512" y="60" width="220" height="52" rx="18" fill="#B85838"/>
+  <rect x="512" y="90" width="220" height="22" fill="#B85838"/>
+  <text x="622" y="92" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Minggu 3</text>
+  <text x="622" y="110" text-anchor="middle" font-size="13" fill="#F5E6DA">Hari 15–21</text>
+  <text x="534" y="145" font-size="18" font-weight="700" fill="#B85838">Buat Output</text>
+  <text x="534" y="165" font-size="15" fill="#54514A">Buat FAQ &amp;</text>
+  <text x="534" y="185" font-size="15" fill="#54514A">ringkasan dari</text>
+  <text x="534" y="205" font-size="15" fill="#54514A">dokumen Anda.</text>
+  <text x="534" y="240" font-size="13" fill="#B85838">→ FAQ &amp; ringkasan jadi</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="732" y1="160" x2="754" y2="160" stroke="#D8896B" stroke-width="2.5" marker-end="url(#ap)"/>
+
+  <!-- Week 4 -->
+  <rect x="758" y="60" width="242" height="200" rx="18" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <rect x="758" y="60" width="242" height="52" rx="18" fill="#262620"/>
+  <rect x="758" y="90" width="242" height="22" fill="#262620"/>
+  <text x="879" y="92" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Minggu 4</text>
+  <text x="879" y="110" text-anchor="middle" font-size="13" fill="#D8896B">Hari 22–30</text>
+  <text x="778" y="145" font-size="18" font-weight="700" fill="#FFFFFF">Gunakan!</text>
+  <text x="778" y="165" font-size="15" fill="#F5E6DA">Pakai dalam</text>
+  <text x="778" y="185" font-size="15" fill="#F5E6DA">pekerjaan harian,</text>
+  <text x="778" y="205" font-size="15" fill="#F5E6DA">bagikan ke tim.</text>
+  <text x="778" y="240" font-size="13" fill="#F5E6DA">→ Adopsi tim</text>
+
+  <text x="510" y="318" text-anchor="middle" font-size="15" font-weight="700" fill="#B85838">30 hari — dari nol ke AI yang benar-benar dipakai</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 300" width="1120" height="300" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="fa" markerWidth="12" markerHeight="12" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#B85838"/>
+    </marker>
+  </defs>
+
+  <!-- four formula blocks -->
+  <g text-anchor="middle">
+    <rect x="20" y="96" width="158" height="108" rx="16" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+    <text x="99" y="146" font-size="26" font-weight="700" fill="#FFFFFF">Role</text>
+    <text x="99" y="176" font-size="15" fill="#F5E6DA">siapa AI</text>
+
+    <text x="200" y="160" font-size="44" font-weight="700" fill="#B85838">+</text>
+
+    <rect x="232" y="96" width="158" height="108" rx="16" fill="#D8896B" stroke="#262620" stroke-width="2.5"/>
+    <text x="311" y="146" font-size="26" font-weight="700" fill="#FFFFFF">Task</text>
+    <text x="311" y="176" font-size="15" fill="#FBEEE6">apa tugasnya</text>
+
+    <text x="412" y="160" font-size="44" font-weight="700" fill="#B85838">+</text>
+
+    <rect x="444" y="96" width="158" height="108" rx="16" fill="#F5E6DA" stroke="#B85838" stroke-width="2.5"/>
+    <text x="523" y="146" font-size="26" font-weight="700" fill="#262620">Context</text>
+    <text x="523" y="176" font-size="15" fill="#8A5A40">info tambahan</text>
+
+    <text x="624" y="160" font-size="44" font-weight="700" fill="#B85838">+</text>
+
+    <rect x="656" y="96" width="158" height="108" rx="16" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+    <text x="735" y="146" font-size="26" font-weight="700" fill="#262620">Output</text>
+    <text x="735" y="176" font-size="15" fill="#54514A">format hasil</text>
+  </g>
+
+  <!-- equals → result -->
+  <line x1="826" y1="150" x2="892" y2="150" stroke="#B85838" stroke-width="3.5" marker-end="url(#fa)"/>
+  <rect x="900" y="92" width="200" height="116" rx="18" fill="#262620"/>
+  <text x="1000" y="140" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">Prompt</text>
+  <text x="1000" y="172" text-anchor="middle" font-size="20" font-weight="700" fill="#D8896B">berkualitas</text>
+
+  <text x="20" y="58" font-size="22" font-weight="700" fill="#262620">Formula prompt sederhana</text>
+  <text x="20" y="252" font-size="16" fill="#54514A">Empat bagian ini membuat instruksi Anda tidak ambigu — AI tahu persis apa yang diminta.</text>
+</svg>

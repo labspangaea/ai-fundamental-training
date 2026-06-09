@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 420" width="1040" height="420" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="na" markerWidth="12" markerHeight="12" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#B85838"/>
+    </marker>
+  </defs>
+
+  <!-- source documents -->
+  <text x="20" y="58" font-size="17" font-weight="700" letter-spacing="1.5" fill="#8A8276">DOKUMEN ANDA</text>
+  <g font-size="19" font-weight="700" fill="#262620">
+    <rect x="20" y="78" width="200" height="64" rx="12" fill="#F7F6EF" stroke="#262620" stroke-width="2"/><text x="44" y="117">SOP Internal</text>
+    <rect x="20" y="158" width="200" height="64" rx="12" fill="#F7F6EF" stroke="#262620" stroke-width="2"/><text x="44" y="197">Company Profile</text>
+    <rect x="20" y="238" width="200" height="64" rx="12" fill="#F7F6EF" stroke="#262620" stroke-width="2"/><text x="44" y="277">FAQ &amp; Panduan</text>
+  </g>
+
+  <!-- converging arrows -->
+  <line x1="224" y1="110" x2="404" y2="180" stroke="#B85838" stroke-width="2.5" marker-end="url(#na)"/>
+  <line x1="224" y1="190" x2="404" y2="200" stroke="#B85838" stroke-width="2.5" marker-end="url(#na)"/>
+  <line x1="224" y1="270" x2="404" y2="220" stroke="#B85838" stroke-width="2.5" marker-end="url(#na)"/>
+
+  <!-- NotebookLM core -->
+  <rect x="414" y="138" width="210" height="124" rx="18" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <text x="519" y="192" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">NotebookLM</text>
+  <text x="519" y="222" text-anchor="middle" font-size="16" fill="#F5E6DA">membaca dokumen Anda</text>
+
+  <line x1="624" y1="200" x2="694" y2="200" stroke="#B85838" stroke-width="3" marker-end="url(#na)"/>
+
+  <!-- grounded answer -->
+  <rect x="704" y="96" width="316" height="208" rx="16" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+  <text x="728" y="136" font-size="18" font-weight="700" fill="#262620">Jawaban berbasis dokumen</text>
+  <text x="728" y="170" font-size="16" fill="#54514A">"Hak cuti tahunan 12 hari,</text>
+  <text x="728" y="192" font-size="16" fill="#54514A">sesuai SOP HR…"</text>
+  <rect x="728" y="216" width="268" height="62" rx="10" fill="#F5E6DA" stroke="#B85838" stroke-width="1.5"/>
+  <text x="744" y="242" font-size="15" font-weight="700" fill="#B85838">Sumber:</text>
+  <text x="744" y="264" font-size="14" fill="#54514A">SOP HR · hal. 12  ·  Handbook · bab 3</text>
+
+  <text x="20" y="392" font-size="16" fill="#54514A">"ChatGPT untuk dokumen milik kita sendiri" — setiap jawaban disertai sumbernya.</text>
+</svg>

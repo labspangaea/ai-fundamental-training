@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <!-- ascending connector path through the four stations -->
+  <polyline points="130,355 368,287 606,219 844,151" fill="none" stroke="#D8896B" stroke-width="4" stroke-dasharray="3 10" stroke-linecap="round"/>
+
+  <!-- Station 1 — Modul 1 (current, highlighted) -->
+  <rect x="40" y="300" width="180" height="120" rx="18" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <circle cx="70" cy="330" r="20" fill="#FFFFFF"/>
+  <text x="70" y="338" text-anchor="middle" font-size="24" font-weight="700" fill="#B85838">1</text>
+  <text x="58" y="378" font-size="22" font-weight="700" fill="#FFFFFF">AI</text>
+  <text x="58" y="402" font-size="22" font-weight="700" fill="#FFFFFF">Fundamental</text>
+
+  <!-- Station 2 — Modul 2 -->
+  <rect x="278" y="232" width="180" height="120" rx="18" fill="#F7F6EF" stroke="#B85838" stroke-width="2.5"/>
+  <circle cx="308" cy="262" r="20" fill="#B85838"/>
+  <text x="308" y="270" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="296" y="310" font-size="22" font-weight="700" fill="#262620">Prompt</text>
+  <text x="296" y="334" font-size="22" font-weight="700" fill="#262620">Engineering</text>
+
+  <!-- Station 3 — Modul 3 -->
+  <rect x="516" y="164" width="180" height="120" rx="18" fill="#F7F6EF" stroke="#B85838" stroke-width="2.5"/>
+  <circle cx="546" cy="194" r="20" fill="#B85838"/>
+  <text x="546" y="202" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="534" y="242" font-size="22" font-weight="700" fill="#262620">NotebookLM</text>
+  <text x="534" y="266" font-size="22" font-weight="700" fill="#262620">Fundamental</text>
+
+  <!-- Station 4 — Modul 4 -->
+  <rect x="754" y="96" width="180" height="120" rx="18" fill="#F7F6EF" stroke="#B85838" stroke-width="2.5"/>
+  <circle cx="784" cy="126" r="20" fill="#B85838"/>
+  <text x="784" y="134" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="772" y="174" font-size="22" font-weight="700" fill="#262620">Workshop</text>
+  <text x="772" y="198" font-size="22" font-weight="700" fill="#262620">Studi Kasus</text>
+
+  <text x="40" y="455" font-size="17" fill="#54514A">Alur belajar: AI → cara berkomunikasi dengan AI → AI berbasis dokumen → implementasi di pekerjaan.</text>
+</svg>

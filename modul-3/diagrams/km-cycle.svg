@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="ka" markerWidth="11" markerHeight="11" refX="6" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,5 L0,10 z" fill="#B85838"/>
+    </marker>
+  </defs>
+
+  <!-- clockwise arcs between the four stages -->
+  <g fill="none" stroke="#B85838" stroke-width="3">
+    <path d="M468 118 A 200 200 0 0 1 632 290" marker-end="url(#ka)"/>
+    <path d="M628 360 A 200 200 0 0 1 452 460" marker-end="url(#ka)"/>
+    <path d="M292 460 A 200 200 0 0 1 128 290" marker-end="url(#ka)"/>
+    <path d="M132 250 A 200 200 0 0 1 308 118" marker-end="url(#ka)"/>
+  </g>
+
+  <!-- center -->
+  <text x="380" y="262" text-anchor="middle" font-size="22" font-weight="700" fill="#262620">Knowledge</text>
+  <text x="380" y="290" text-anchor="middle" font-size="22" font-weight="700" fill="#262620">Management</text>
+
+  <!-- nodes -->
+  <g text-anchor="middle">
+    <rect x="300" y="58" width="160" height="64" rx="14" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+    <text x="380" y="97" font-size="22" font-weight="700" fill="#FFFFFF">Kumpulkan</text>
+
+    <rect x="556" y="238" width="174" height="64" rx="14" fill="#F5E6DA" stroke="#B85838" stroke-width="2.5"/>
+    <text x="643" y="277" font-size="22" font-weight="700" fill="#262620">Simpan</text>
+
+    <rect x="300" y="448" width="160" height="64" rx="14" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+    <text x="380" y="487" font-size="22" font-weight="700" fill="#262620">Bagikan</text>
+
+    <rect x="20" y="238" width="190" height="64" rx="14" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+    <text x="115" y="278" font-size="20" font-weight="700" fill="#262620">Gunakan ulang</text>
+  </g>
+</svg>

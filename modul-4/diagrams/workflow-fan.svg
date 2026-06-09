@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 400" width="1020" height="400" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#B85838"/>
+    </marker>
+  </defs>
+
+  <!-- Source: Dokumen -->
+  <rect x="20" y="148" width="170" height="80" rx="14" fill="#F5E6DA" stroke="#B85838" stroke-width="2.5"/>
+  <text x="105" y="182" text-anchor="middle" font-size="20" font-weight="700" fill="#262620">Dokumen</text>
+  <text x="105" y="206" text-anchor="middle" font-size="15" fill="#54514A">SOP / PDF / Text</text>
+
+  <!-- Arrow to NotebookLM -->
+  <line x1="190" y1="188" x2="290" y2="188" stroke="#B85838" stroke-width="3" marker-end="url(#arr)"/>
+
+  <!-- NotebookLM hub -->
+  <rect x="295" y="120" width="180" height="136" rx="18" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <text x="385" y="170" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">NotebookLM</text>
+  <text x="385" y="195" text-anchor="middle" font-size="15" fill="#F5E6DA">Upload sekali,</text>
+  <text x="385" y="215" text-anchor="middle" font-size="15" fill="#F5E6DA">tanya berkali-kali</text>
+
+  <!-- Fan arrows from NotebookLM to outputs -->
+  <!-- Top output: Ringkasan -->
+  <line x1="475" y1="145" x2="590" y2="58" stroke="#D8896B" stroke-width="2.5" marker-end="url(#arr)"/>
+  <!-- Mid-top: FAQ -->
+  <line x1="475" y1="168" x2="590" y2="133" stroke="#D8896B" stroke-width="2.5" marker-end="url(#arr)"/>
+  <!-- Mid: Materi Pelatihan -->
+  <line x1="475" y1="188" x2="590" y2="208" stroke="#D8896B" stroke-width="2.5" marker-end="url(#arr)"/>
+  <!-- Mid-bottom: Quiz -->
+  <line x1="475" y1="208" x2="590" y2="283" stroke="#D8896B" stroke-width="2.5" marker-end="url(#arr)"/>
+  <!-- Bottom: Presentasi -->
+  <line x1="475" y1="225" x2="590" y2="358" stroke="#D8896B" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Output cards -->
+  <!-- Ringkasan -->
+  <rect x="595" y="20" width="200" height="60" rx="12" fill="#F7F6EF" stroke="#D8896B" stroke-width="2"/>
+  <text x="695" y="48" text-anchor="middle" font-size="18" font-weight="700" fill="#262620">Ringkasan</text>
+  <text x="695" y="68" text-anchor="middle" font-size="13" fill="#54514A">Poin-poin utama dokumen</text>
+
+  <!-- FAQ -->
+  <rect x="595" y="103" width="200" height="60" rx="12" fill="#F7F6EF" stroke="#D8896B" stroke-width="2"/>
+  <text x="695" y="131" text-anchor="middle" font-size="18" font-weight="700" fill="#262620">FAQ</text>
+  <text x="695" y="151" text-anchor="middle" font-size="13" fill="#54514A">Jawaban tanya-jawab otomatis</text>
+
+  <!-- Materi Pelatihan -->
+  <rect x="595" y="178" width="200" height="60" rx="12" fill="#F5E6DA" stroke="#B85838" stroke-width="2"/>
+  <text x="695" y="204" text-anchor="middle" font-size="18" font-weight="700" fill="#262620">Materi Pelatihan</text>
+  <text x="695" y="224" text-anchor="middle" font-size="13" fill="#54514A">Slide &amp; handout siap pakai</text>
+
+  <!-- Quiz -->
+  <rect x="595" y="253" width="200" height="60" rx="12" fill="#F7F6EF" stroke="#D8896B" stroke-width="2"/>
+  <text x="695" y="281" text-anchor="middle" font-size="18" font-weight="700" fill="#262620">Quiz / Evaluasi</text>
+  <text x="695" y="301" text-anchor="middle" font-size="13" fill="#54514A">Soal otomatis dari materi</text>
+
+  <!-- Presentasi -->
+  <rect x="595" y="328" width="200" height="60" rx="12" fill="#F7F6EF" stroke="#D8896B" stroke-width="2"/>
+  <text x="695" y="356" text-anchor="middle" font-size="18" font-weight="700" fill="#262620">Presentasi</text>
+  <text x="695" y="376" text-anchor="middle" font-size="13" fill="#54514A">Outline &amp; narasi slide</text>
+
+  <!-- Bottom label -->
+  <text x="510" y="395" text-anchor="middle" font-size="16" font-weight="700" fill="#B85838">Satu sumber → banyak output</text>
+</svg>

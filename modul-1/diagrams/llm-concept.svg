@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 380" width="980" height="380" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="arl" markerWidth="12" markerHeight="12" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#B85838"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="46" font-size="20" font-weight="700" fill="#262620">LLM — Large Language Model</text>
+  <text x="30" y="72" font-size="15" fill="#54514A">Seperti seseorang yang membaca jutaan dokumen, lalu membantu menemukan polanya.</text>
+
+  <!-- stack of documents -->
+  <g>
+    <rect x="40" y="150" width="120" height="150" rx="8" fill="#F7F6EF" stroke="#262620" stroke-width="2"/>
+    <rect x="60" y="135" width="120" height="150" rx="8" fill="#F7F6EF" stroke="#262620" stroke-width="2"/>
+    <rect x="80" y="120" width="120" height="150" rx="8" fill="#FFFFFF" stroke="#262620" stroke-width="2.2"/>
+    <line x1="98" y1="150" x2="182" y2="150" stroke="#D8896B" stroke-width="3"/>
+    <line x1="98" y1="172" x2="182" y2="172" stroke="#E2E0D6" stroke-width="3"/>
+    <line x1="98" y1="194" x2="182" y2="194" stroke="#E2E0D6" stroke-width="3"/>
+    <line x1="98" y1="216" x2="160" y2="216" stroke="#E2E0D6" stroke-width="3"/>
+  </g>
+  <text x="120" y="312" text-anchor="middle" font-size="16" font-weight="700" fill="#54514A">Jutaan dokumen</text>
+
+  <!-- arrow -->
+  <line x1="218" y1="195" x2="300" y2="195" stroke="#B85838" stroke-width="3" marker-end="url(#arl)"/>
+  <text x="259" y="178" text-anchor="middle" font-size="14" fill="#54514A">belajar pola</text>
+
+  <!-- LLM core -->
+  <circle cx="490" cy="195" r="110" fill="#B85838" stroke="#262620" stroke-width="3"/>
+  <text x="490" y="185" text-anchor="middle" font-size="40" font-weight="700" fill="#FFFFFF">LLM</text>
+  <text x="490" y="222" text-anchor="middle" font-size="16" fill="#F5E6DA">pola bahasa</text>
+
+  <!-- arrow out -->
+  <line x1="600" y1="195" x2="682" y2="195" stroke="#B85838" stroke-width="3" marker-end="url(#arl)"/>
+
+  <!-- capabilities -->
+  <g font-size="17" fill="#262620">
+    <rect x="700" y="105" width="250" height="42" rx="10" fill="#F5E6DA" stroke="#D8896B" stroke-width="1.5"/>
+    <text x="720" y="132">Menjawab &amp; meringkas</text>
+    <rect x="700" y="158" width="250" height="42" rx="10" fill="#F5E6DA" stroke="#D8896B" stroke-width="1.5"/>
+    <text x="720" y="185">Membuat email &amp; artikel</text>
+    <rect x="700" y="211" width="250" height="42" rx="10" fill="#F5E6DA" stroke="#D8896B" stroke-width="1.5"/>
+    <text x="720" y="238">Membantu coding</text>
+  </g>
+  <text x="825" y="300" text-anchor="middle" font-size="14" fill="#54514A">ChatGPT · Gemini · Claude · Copilot</text>
+</svg>

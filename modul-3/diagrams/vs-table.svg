@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 470" width="1040" height="470" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <!-- NotebookLM column highlight -->
+  <rect x="690" y="16" width="334" height="438" rx="16" fill="#F5E6DA" stroke="#B85838" stroke-width="2.5"/>
+
+  <!-- header -->
+  <text x="30" y="58" font-size="20" font-weight="700" fill="#54514A">Aspek</text>
+  <text x="540" y="58" text-anchor="middle" font-size="22" font-weight="700" fill="#262620">ChatGPT</text>
+  <text x="857" y="58" text-anchor="middle" font-size="22" font-weight="700" fill="#B85838">NotebookLM</text>
+  <line x1="20" y1="80" x2="1020" y2="80" stroke="#262620" stroke-width="2"/>
+
+  <!-- rows -->
+  <g font-size="19">
+    <text x="30" y="132" fill="#262620">Pengetahuan umum</text>
+    <text x="540" y="132" text-anchor="middle" font-weight="700" fill="#2F7D4F">✓</text>
+    <text x="857" y="132" text-anchor="middle" font-weight="700" fill="#2F7D4F">✓</text>
+    <line x1="20" y1="156" x2="1020" y2="156" stroke="#E2E0D6" stroke-width="1.5"/>
+
+    <text x="30" y="208" fill="#262620">Berdasarkan dokumen pribadi</text>
+    <text x="540" y="208" text-anchor="middle" font-size="16" fill="#A89F90">terbatas</text>
+    <text x="857" y="208" text-anchor="middle" font-weight="700" fill="#2F7D4F">✓</text>
+    <line x1="20" y1="232" x2="1020" y2="232" stroke="#E2E0D6" stroke-width="1.5"/>
+
+    <text x="30" y="284" fill="#262620">Menunjukkan sumber jawaban</text>
+    <text x="540" y="284" text-anchor="middle" font-size="16" fill="#A89F90">tidak selalu</text>
+    <text x="857" y="284" text-anchor="middle" font-weight="700" fill="#2F7D4F">✓</text>
+    <line x1="20" y1="308" x2="1020" y2="308" stroke="#E2E0D6" stroke-width="1.5"/>
+
+    <text x="30" y="360" fill="#262620">Knowledge base internal</text>
+    <text x="540" y="360" text-anchor="middle" font-size="16" fill="#A89F90">terbatas</text>
+    <text x="857" y="360" text-anchor="middle" font-size="16" font-weight="700" fill="#B85838">sangat cocok</text>
+    <line x1="20" y1="384" x2="1020" y2="384" stroke="#E2E0D6" stroke-width="1.5"/>
+
+    <text x="30" y="436" fill="#262620">Belajar dari SOP perusahaan</text>
+    <text x="540" y="436" text-anchor="middle" font-size="16" fill="#B5443B">tidak langsung</text>
+    <text x="857" y="436" text-anchor="middle" font-weight="700" fill="#2F7D4F">✓</text>
+  </g>
+</svg>

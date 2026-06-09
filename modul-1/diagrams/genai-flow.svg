@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360" width="980" height="360" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="arf" markerWidth="12" markerHeight="12" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#B85838"/>
+    </marker>
+  </defs>
+
+  <!-- INPUT card -->
+  <rect x="30" y="90" width="320" height="180" rx="18" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+  <text x="55" y="128" font-size="17" font-weight="700" letter-spacing="2" fill="#B85838">INPUT (PROMPT)</text>
+  <text x="55" y="170" font-size="18" fill="#262620">"Buat email kepada</text>
+  <text x="55" y="196" font-size="18" fill="#262620">pelanggan yang terlambat</text>
+  <text x="55" y="222" font-size="18" fill="#262620">melakukan pembayaran"</text>
+
+  <!-- engine -->
+  <line x1="350" y1="180" x2="408" y2="180" stroke="#B85838" stroke-width="3" marker-end="url(#arf)"/>
+  <rect x="412" y="120" width="156" height="120" rx="18" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <text x="490" y="172" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Generative</text>
+  <text x="490" y="202" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">AI</text>
+  <line x1="568" y1="180" x2="626" y2="180" stroke="#B85838" stroke-width="3" marker-end="url(#arf)"/>
+
+  <!-- OUTPUT card -->
+  <rect x="630" y="90" width="320" height="180" rx="18" fill="#F5E6DA" stroke="#D8896B" stroke-width="2.5"/>
+  <text x="655" y="128" font-size="17" font-weight="700" letter-spacing="2" fill="#B85838">OUTPUT</text>
+  <text x="655" y="166" font-size="16" fill="#262620">Kepada Bpk/Ibu pelanggan,</text>
+  <text x="655" y="192" font-size="16" fill="#54514A">Kami ingin mengingatkan</text>
+  <text x="655" y="214" font-size="16" fill="#54514A">pembayaran yang tertunda…</text>
+  <text x="655" y="246" font-size="15" font-style="italic" fill="#B85838">email profesional, instan</text>
+
+  <text x="30" y="50" font-size="20" font-weight="700" fill="#262620">Generative AI menghasilkan konten baru</text>
+  <text x="30" y="328" font-size="15" fill="#54514A">Output dapat berupa teks, gambar, audio, video, atau kode program.</text>
+</svg>

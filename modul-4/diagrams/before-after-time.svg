@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 340" width="980" height="340" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <text x="30" y="44" font-size="20" font-weight="700" fill="#262620">Membuat Materi dari Dokumen</text>
+
+  <!-- axis -->
+  <line x1="250" y1="70" x2="250" y2="290" stroke="#E2E0D6" stroke-width="2"/>
+
+  <!-- BEFORE bar: 2–3 jam -->
+  <text x="238" y="128" text-anchor="end" font-size="18" font-weight="700" fill="#54514A">Tanpa AI</text>
+  <rect x="250" y="96" width="680" height="56" rx="10" fill="#F7F6EF" stroke="#54514A" stroke-width="2"/>
+  <text x="268" y="130" font-size="14" fill="#54514A">Cari dokumen</text>
+  <rect x="394" y="96" width="170" height="56" rx="10" fill="#EDEAE0" stroke="#54514A" stroke-width="2"/>
+  <text x="478" y="130" text-anchor="middle" font-size="14" fill="#54514A">Baca &amp; pahami</text>
+  <rect x="572" y="96" width="188" height="56" rx="10" fill="#EDEAE0" stroke="#54514A" stroke-width="2"/>
+  <text x="666" y="130" text-anchor="middle" font-size="14" fill="#54514A">Ringkas &amp; susun</text>
+  <rect x="768" y="96" width="162" height="56" rx="10" fill="#EDEAE0" stroke="#54514A" stroke-width="2"/>
+  <text x="849" y="130" text-anchor="middle" font-size="14" fill="#54514A">Buat materi</text>
+  <text x="268" y="172" font-size="20" font-weight="700" fill="#54514A">2–3 jam kerja manual</text>
+
+  <!-- AFTER bars: 15–30 menit -->
+  <text x="238" y="238" text-anchor="end" font-size="18" font-weight="700" fill="#B85838">Dengan AI</text>
+  <!-- Upload -->
+  <rect x="250" y="208" width="100" height="56" rx="10" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <text x="300" y="243" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Upload</text>
+  <!-- Tanya -->
+  <rect x="358" y="208" width="100" height="56" rx="10" fill="#D8896B" stroke="#262620" stroke-width="2"/>
+  <text x="408" y="243" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Tanya AI</text>
+  <!-- Review -->
+  <rect x="466" y="208" width="110" height="56" rx="10" fill="#F5E6DA" stroke="#B85838" stroke-width="2"/>
+  <text x="521" y="243" text-anchor="middle" font-size="13" font-weight="700" fill="#B85838">Review</text>
+
+  <text x="600" y="243" font-size="22" font-weight="700" fill="#262620">= 15–30 menit</text>
+  <text x="252" y="282" font-size="14" fill="#54514A">Upload (2') → Tanya AI (5–10') → Review manusia (10–15')</text>
+
+  <!-- savings -->
+  <text x="960" y="320" text-anchor="end" font-size="17" font-weight="700" fill="#B85838">Hemat ±85% waktu administratif</text>
+</svg>

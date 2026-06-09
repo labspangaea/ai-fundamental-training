@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <!-- spokes (drawn first, behind nodes) -->
+  <g stroke="#D8896B" stroke-width="2.5">
+    <line x1="500" y1="280" x2="500" y2="70"/>
+    <line x1="500" y1="280" x2="664" y2="149"/>
+    <line x1="500" y1="280" x2="705" y2="327"/>
+    <line x1="500" y1="280" x2="591" y2="469"/>
+    <line x1="500" y1="280" x2="409" y2="469"/>
+    <line x1="500" y1="280" x2="295" y2="327"/>
+    <line x1="500" y1="280" x2="336" y2="149"/>
+  </g>
+
+  <!-- field nodes -->
+  <g font-size="22" font-weight="700" fill="#262620" text-anchor="middle">
+    <g><rect x="416" y="40" width="168" height="60" rx="14" fill="#F7F6EF" stroke="#B85838" stroke-width="2"/><text x="500" y="78">Pendidikan</text></g>
+    <g><rect x="580" y="119" width="168" height="60" rx="14" fill="#F7F6EF" stroke="#B85838" stroke-width="2"/><text x="664" y="157">Kesehatan</text></g>
+    <g><rect x="621" y="297" width="168" height="60" rx="14" fill="#F7F6EF" stroke="#B85838" stroke-width="2"/><text x="705" y="335">Keuangan</text></g>
+    <g><rect x="507" y="439" width="168" height="60" rx="14" fill="#F7F6EF" stroke="#B85838" stroke-width="2"/><text x="591" y="477">Pariwisata</text></g>
+    <g><rect x="325" y="439" width="168" height="60" rx="14" fill="#F7F6EF" stroke="#B85838" stroke-width="2"/><text x="409" y="477">Pemerintahan</text></g>
+    <g><rect x="211" y="297" width="168" height="60" rx="14" fill="#F7F6EF" stroke="#B85838" stroke-width="2"/><text x="295" y="329" font-size="19">Customer</text><text x="295" y="350" font-size="19">Service</text></g>
+    <g><rect x="252" y="119" width="168" height="60" rx="14" fill="#F7F6EF" stroke="#B85838" stroke-width="2"/><text x="336" y="157">Marketing</text></g>
+  </g>
+
+  <!-- AI hub -->
+  <circle cx="500" cy="280" r="68" fill="#B85838" stroke="#262620" stroke-width="3"/>
+  <text x="500" y="295" text-anchor="middle" font-size="46" font-weight="700" fill="#FFFFFF">AI</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 420" width="1040" height="420" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <text x="30" y="46" font-size="20" font-weight="700" fill="#262620">Membongkar satu prompt yang baik</text>
+
+  <!-- Role -->
+  <rect x="30" y="74" width="150" height="62" rx="12" fill="#B85838"/>
+  <text x="105" y="113" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Role</text>
+  <text x="200" y="105" font-size="22" fill="#262620">Anda adalah seorang <tspan font-weight="700">HR Manager</tspan>.</text>
+
+  <!-- Task -->
+  <rect x="30" y="158" width="150" height="62" rx="12" fill="#D8896B"/>
+  <text x="105" y="197" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Task</text>
+  <text x="200" y="189" font-size="22" fill="#262620">Buatkan <tspan font-weight="700">pengumuman internal</tspan>.</text>
+
+  <!-- Context -->
+  <rect x="30" y="242" width="150" height="62" rx="12" fill="#F5E6DA" stroke="#B85838" stroke-width="2"/>
+  <text x="105" y="281" text-anchor="middle" font-size="22" font-weight="700" fill="#262620">Context</text>
+  <text x="200" y="273" font-size="22" fill="#262620">Kebijakan <tspan font-weight="700">WFO 3 hari / minggu</tspan>.</text>
+
+  <!-- Output -->
+  <rect x="30" y="326" width="150" height="62" rx="12" fill="#F7F6EF" stroke="#262620" stroke-width="2"/>
+  <text x="105" y="365" text-anchor="middle" font-size="22" font-weight="700" fill="#262620">Output</text>
+  <text x="200" y="357" font-size="22" fill="#262620">Bahasa <tspan font-weight="700">formal</tspan>, maksimal <tspan font-weight="700">300 kata</tspan>.</text>
+</svg>

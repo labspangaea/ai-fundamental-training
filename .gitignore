@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# scratch renders from the build-verify step
+/tmp/
+*.tmp

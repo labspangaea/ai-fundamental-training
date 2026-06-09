@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360" width="980" height="360" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <text x="30" y="46" font-size="20" font-weight="700" fill="#262620">Studi Kasus — membuat laporan mingguan</text>
+
+  <!-- axis -->
+  <line x1="250" y1="90" x2="250" y2="300" stroke="#E2E0D6" stroke-width="2"/>
+
+  <!-- Before bar (2 jam = full) -->
+  <text x="230" y="148" text-anchor="end" font-size="18" font-weight="700" fill="#54514A">Tanpa AI</text>
+  <rect x="250" y="118" width="660" height="56" rx="10" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+  <text x="280" y="153" font-size="22" font-weight="700" fill="#262620">120 menit  ·  2 jam penuh</text>
+
+  <!-- After bars (10 + 20 = 30 menit) -->
+  <text x="230" y="238" text-anchor="end" font-size="18" font-weight="700" fill="#B85838">Dengan AI</text>
+  <rect x="250" y="208" width="91" height="56" rx="10" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <text x="295" y="243" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">10'</text>
+  <rect x="349" y="208" width="165" height="56" rx="10" fill="#F5E6DA" stroke="#D8896B" stroke-width="2.5"/>
+  <text x="431" y="243" text-anchor="middle" font-size="15" font-weight="700" fill="#B85838">20'</text>
+  <text x="540" y="243" font-size="18" font-weight="700" fill="#262620">= 30 menit total</text>
+  <text x="252" y="296" font-size="14" fill="#54514A">Draft AI (10') + review manusia (20')</text>
+
+  <!-- saving callout -->
+  <text x="910" y="340" text-anchor="end" font-size="17" font-weight="700" fill="#B85838">Hemat ±75% waktu — produktivitas meningkat</text>
+</svg>

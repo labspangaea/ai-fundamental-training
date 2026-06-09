@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 440" width="1020" height="440" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <defs>
+    <marker id="ga" markerWidth="12" markerHeight="12" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#B85838"/>
+    </marker>
+    <marker id="gam" markerWidth="12" markerHeight="12" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 z" fill="#A89F90"/>
+    </marker>
+  </defs>
+
+  <!-- Row 1: vague in → vague out -->
+  <text x="30" y="58" font-size="20" font-weight="700" fill="#8A8276">Garbage in</text>
+  <rect x="30" y="74" width="270" height="86" rx="14" fill="#F0EEE6" stroke="#A89F90" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="50" y="108" font-size="20" font-weight="700" fill="#54514A">"Buat proposal."</text>
+  <text x="50" y="136" font-size="15" fill="#8A8276">prompt kabur</text>
+  <line x1="300" y1="117" x2="372" y2="117" stroke="#A89F90" stroke-width="3" marker-end="url(#gam)"/>
+  <circle cx="412" cy="117" r="34" fill="#EDEAE0" stroke="#A89F90" stroke-width="2"/>
+  <text x="412" y="124" text-anchor="middle" font-size="20" font-weight="700" fill="#8A8276">AI</text>
+  <line x1="446" y1="117" x2="518" y2="117" stroke="#A89F90" stroke-width="3" marker-end="url(#gam)"/>
+  <rect x="522" y="74" width="468" height="86" rx="14" fill="#F0EEE6" stroke="#A89F90" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="544" y="108" font-size="19" fill="#54514A">Jawaban generik, meleset, terlalu umum</text>
+  <text x="544" y="136" font-size="15" fill="#8A8276">garbage out</text>
+
+  <!-- divider -->
+  <line x1="30" y1="218" x2="990" y2="218" stroke="#E2E0D6" stroke-width="1.5"/>
+
+  <!-- Row 2: clear in → quality out -->
+  <text x="30" y="282" font-size="20" font-weight="700" fill="#B85838">Clarity in</text>
+  <rect x="30" y="298" width="270" height="96" rx="14" fill="#F5E6DA" stroke="#B85838" stroke-width="2.5"/>
+  <text x="50" y="330" font-size="18" font-weight="700" fill="#262620">"Buat proposal pelatihan</text>
+  <text x="50" y="354" font-size="18" font-weight="700" fill="#262620">AI, retail, 1 hari, 2 hal."</text>
+  <text x="50" y="380" font-size="15" fill="#B85838">prompt jelas &amp; lengkap</text>
+  <line x1="300" y1="346" x2="372" y2="346" stroke="#B85838" stroke-width="3" marker-end="url(#ga)"/>
+  <circle cx="412" cy="346" r="34" fill="#B85838" stroke="#262620" stroke-width="2.5"/>
+  <text x="412" y="353" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">AI</text>
+  <line x1="446" y1="346" x2="518" y2="346" stroke="#B85838" stroke-width="3" marker-end="url(#ga)"/>
+  <rect x="522" y="298" width="468" height="96" rx="14" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+  <text x="544" y="338" font-size="19" font-weight="700" fill="#262620">Jawaban relevan, tepat sasaran, siap pakai</text>
+  <text x="544" y="368" font-size="15" fill="#54514A">quality out</text>
+</svg>

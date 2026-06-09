@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" font-family="'Manrope','Helvetica Neue',sans-serif">
+  <text x="40" y="48" font-size="20" font-weight="700" fill="#262620">AI = Copilot · Manusia = Pilot</text>
+
+  <!-- PILOT panel -->
+  <rect x="40" y="80" width="370" height="280" rx="22" fill="#F5E6DA" stroke="#B85838" stroke-width="3"/>
+  <circle cx="130" cy="160" r="34" fill="#B85838"/>
+  <text x="130" y="172" text-anchor="middle" font-size="34" fill="#FFFFFF">★</text>
+  <text x="185" y="155" font-size="30" font-weight="700" fill="#262620">PILOT</text>
+  <text x="185" y="185" font-size="17" fill="#54514A">Manusia</text>
+  <text x="70" y="240" font-size="18" fill="#262620">▸ Mengendalikan arah</text>
+  <text x="70" y="274" font-size="18" fill="#262620">▸ Mengambil keputusan</text>
+  <text x="70" y="308" font-size="18" fill="#262620">▸ Bertanggung jawab</text>
+  <text x="70" y="342" font-size="18" font-weight="700" fill="#B85838">▸ Hasil akhir di tangan manusia</text>
+
+  <!-- COPILOT panel -->
+  <rect x="470" y="80" width="370" height="280" rx="22" fill="#F7F6EF" stroke="#262620" stroke-width="2.5"/>
+  <circle cx="560" cy="160" r="34" fill="#262620"/>
+  <text x="560" y="172" text-anchor="middle" font-size="30" fill="#FFFFFF">✦</text>
+  <text x="615" y="155" font-size="30" font-weight="700" fill="#262620">COPILOT</text>
+  <text x="615" y="185" font-size="17" fill="#54514A">AI</text>
+  <text x="500" y="240" font-size="18" fill="#262620">▸ Membantu lebih cepat</text>
+  <text x="500" y="274" font-size="18" fill="#262620">▸ Lebih produktif</text>
+  <text x="500" y="308" font-size="18" fill="#262620">▸ Lebih kreatif</text>
+  <text x="500" y="342" font-size="18" fill="#54514A">▸ Memberi saran, bukan perintah</text>
+
+  <!-- link -->
+  <path d="M410,220 L470,220" stroke="#B85838" stroke-width="3" stroke-dasharray="6 6"/>
+</svg>
