@@ -33,12 +33,13 @@ of line-icons reused across modules.
 
 ## Rebuilding a deck
 
-Requires the [docsmith](https://github.com/) `make-pdf` plugin (provides
+Requires the [docsmith](https://github.com/labspangaea/pangaealabs-claude-plugins-marketplace) `make-pdf` plugin (provides
 `scripts/build.py`, marp-cli, and the `claudecode-deck` template) plus `rsvg-convert`
-and a headless Chrome.
+and a headless Chrome. Install it from the marketplace with
+`/plugin install docsmith@pangaealabs-claude-plugins-marketplace`.
 
 ```bash
-PLUGIN=/Users/harry/projects/claude-plugins/plugins/docsmith
+PLUGIN=/Users/harry/projects/pangaealabs-claude-plugins-marketplace/plugins/docsmith
 python3 "$PLUGIN/scripts/build.py" \
   --in  modul-1/modul-1-ai-fundamental.md \
   --out modul-1/modul-1-ai-fundamental.pdf \
@@ -50,5 +51,7 @@ SVG/no-white-background rule, build + verify workflow) are documented in
 [`CLAUDE.md`](CLAUDE.md).
 
 ---
+
+Decks rendered with [docsmith](https://github.com/labspangaea/pangaealabs-claude-plugins-marketplace)'s `/make-pdf`.
 
 © 2026 [Pangaea Digital Labs](https://www.pangaea.id). All rights reserved.
