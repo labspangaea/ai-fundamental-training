@@ -2,9 +2,11 @@
 
 This repo holds a 4-module training-deck series ("AI Fundamental untuk Produktivitas
 Kerja"). Each module is a self-contained slide deck rendered to PDF with the
-**docsmith `make-pdf`** system using the **`claudecode-deck`** template. When asked to
-add a module, fix a slide, or build a similar deck, follow the conventions below so
-every module stays visually consistent.
+**docsmith `make-pdf`** system using the **`claudecode-deck`** template. docsmith
+ships from the [pangaealabs marketplace](https://github.com/labspangaea/pangaealabs-claude-plugins-marketplace)
+— install it with `/plugin install docsmith@pangaealabs-claude-plugins-marketplace`.
+When asked to add a module, fix a slide, or build a similar deck, follow the
+conventions below so every module stays visually consistent.
 
 ## Layout — one folder per module, everything co-located
 ```
@@ -33,7 +35,7 @@ Anggraeni Wisono · © 2026`.
 
 ## Build + verify
 ```bash
-PLUGIN=/Users/harry/projects/claude-plugins/plugins/docsmith
+PLUGIN=/Users/harry/projects/pangaealabs-claude-plugins-marketplace/plugins/docsmith
 python3 "$PLUGIN/scripts/build.py" \
   --in  modul-N/modul-N-<slug>.md \
   --out modul-N/modul-N-<slug>.pdf \
@@ -90,6 +92,8 @@ Custom (this series leans on these):
 
 ## Don't edit the template from here
 The `claudecode-deck` theme/classes live in the docsmith plugin
-(`/Users/harry/projects/claude-plugins/plugins/docsmith/...`), a separate repo. Only
-change it deliberately (a genuine template improvement that should apply to every
-deck) — routine module work only touches files under `modul-N/`.
+(`/Users/harry/projects/pangaealabs-claude-plugins-marketplace/plugins/docsmith/...`),
+which ships from the [pangaealabs marketplace](https://github.com/labspangaea/pangaealabs-claude-plugins-marketplace)
+(`/plugin install docsmith@pangaealabs-claude-plugins-marketplace`) and is a separate
+repo. Only change it deliberately (a genuine template improvement that should apply to
+every deck) — routine module work only touches files under `modul-N/`.
