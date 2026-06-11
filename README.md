@@ -33,17 +33,22 @@ of line-icons reused across modules.
 
 ## Rebuilding a deck
 
-Requires the [docsmith](https://github.com/labspangaea/pangaealabs-claude-plugins-marketplace) `make-pdf` plugin (provides
-`scripts/build.py`, marp-cli, and the `claudecode-deck` template) plus `rsvg-convert`
-and a headless Chrome. Install it from the marketplace with
-`/plugin install docsmith@pangaealabs-claude-plugins-marketplace`.
+The decks are built with the **docsmith** plugin — its `claudecode-deck` template,
+`scripts/build.py`, and marp-cli — distributed through the
+**[Pangaea Labs plugin marketplace](https://github.com/labspangaea/pangaealabs-claude-plugins-marketplace)**.
+You also need `rsvg-convert` and a headless Chrome on `PATH`.
 
-```bash
-PLUGIN=/Users/harry/projects/pangaealabs-claude-plugins-marketplace/plugins/docsmith
-python3 "$PLUGIN/scripts/build.py" \
-  --in  modul-1/modul-1-ai-fundamental.md \
-  --out modul-1/modul-1-ai-fundamental.pdf \
-  --template claudecode-deck --company "Pangaea Digital Labs"
+Add the marketplace and install the plugin once (from the Claude Code REPL):
+
+```
+/plugin marketplace add labspangaea/pangaealabs-claude-plugins-marketplace
+/plugin install docsmith@pangaealabs-claude-plugins-marketplace
+```
+
+**Recommended — let the `/make-pdf` skill rebuild it** (portable, no paths to manage):
+
+```
+/make-pdf rebuild modul-1/modul-1-ai-fundamental.md as a claudecode-deck for Pangaea Digital Labs
 ```
 
 Conventions for editing or adding modules (front-matter, slide classes, the
